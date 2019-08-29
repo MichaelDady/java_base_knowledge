@@ -1,4 +1,4 @@
-package com.makun.classloader;
+package com.makun.classloader.Wrote;
 
 import java.lang.reflect.Method;
 
@@ -12,8 +12,8 @@ public class NameSpaceTest {
         MyClassLoader loader2 = new MyClassLoader("loader2");
         loader1.setPath("/Users/makun/Desktop/");
         loader2.setPath("/Users/makun/Desktop/");
-        Class<?> clazz1 = loader1.loadClass("com.makun.classloader.Bird");
-        Class<?> clazz2 = loader2.loadClass("com.makun.classloader.Bird");
+        Class<?> clazz1 = loader1.loadClass("com.makun.classloader.Wrote.Bird");
+        Class<?> clazz2 = loader2.loadClass("com.makun.classloader.Wrote.Bird");
         System.out.println(clazz1 == clazz2);
 
         Object object1= clazz1.newInstance();

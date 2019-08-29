@@ -9,6 +9,8 @@ public class ArrayLoad {
         Bird[] birds = new Bird[10];
         Integer[] integerArr = new Integer[10];
         int[] intArr = new int[10];
+//        System.out.println(aesKeyGenerator.getClass().getClassLoader());
+        new  Bird();
         System.out.println(birds.getClass().getClassLoader());
         System.out.println(integerArr.getClass().getClassLoader());
         System.out.println(intArr.getClass().getClassLoader());

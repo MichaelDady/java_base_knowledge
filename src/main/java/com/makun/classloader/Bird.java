@@ -1,10 +1,13 @@
 package com.makun.classloader;
 
+import com.sun.crypto.provider.AESKeyGenerator;
+
 /**
  * @author Created by makun
  * @Date 2019/8/29
  */
 public class Bird {
+    static AESKeyGenerator aesKeyGenerator = new AESKeyGenerator();
 
     private Bird bird;
 

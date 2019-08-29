@@ -1,0 +1,7 @@
+15, Bob, 34, 90AA
+18, Alice, 77, 100DC
+20, Jim, 5, 88ZZ
+30, Eric, 91, 88ZZ
+49, Tom, 22, 30AB
+50, Rose, 89, 30AC
+100,Andy, 22,33DC

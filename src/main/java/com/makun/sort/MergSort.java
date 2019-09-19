@@ -4,6 +4,8 @@ import com.makun.sort.util.GetArrayUtil;
 import com.makun.sort.util.PrintUtil;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 /**
  * @author Created by makun
@@ -14,6 +16,7 @@ public class MergSort {
     private static final Integer DEFAULT_VAL = 2;
 
     public static void main(String[] args) {
+        HashMap map = new LinkedHashMap();
         int[] array = GetArrayUtil.getRandomArray(100, 100);
         PrintUtil.printArray(array);
         array = mergesort(array);

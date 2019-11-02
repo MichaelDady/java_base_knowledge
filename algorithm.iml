@@ -12,12 +12,33 @@
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="algs4" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Desktop/tool/dingtalk-sdk-java" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Desktop/tool/dingtalk-sdk-java" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Desktop/tool/dingtalk-sdk-java" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Desktop/tool/dingtalk-sdk-java" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.12.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.rocketmq:rocketmq-client:3.4.6" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.rocketmq:rocketmq-common:3.4.6" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.rocketmq:rocketmq-remoting:3.4.6" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.29.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.5" level="project" />
+    <orderEntry type="library" name="Maven: cglib:cglib:3.2.5" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:6.0_ALPHA" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant:1.9.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.9.6" level="project" />
   </component>
 </module>

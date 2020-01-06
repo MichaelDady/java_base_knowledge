@@ -18,5 +18,6 @@ public class AtomicTest {
 
         System.out.println(counter.getInteger());
 
+
     }
 }

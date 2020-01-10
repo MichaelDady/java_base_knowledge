@@ -17,7 +17,8 @@ public class LinkedHashMapToLRU {
          */
         Map<String, String> map = new LinkedHashMap<String, String>(size, .75F, true) {
 
-            @Override protected boolean removeEldestEntry(Map.Entry<String, String> eldest) {
+            @Override
+            protected boolean removeEldestEntry(Map.Entry<String, String> eldest) {
                 boolean tooBig = size() > size;
 
                 if (tooBig) {

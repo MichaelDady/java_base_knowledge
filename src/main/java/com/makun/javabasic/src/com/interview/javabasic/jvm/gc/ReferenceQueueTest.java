@@ -6,15 +6,13 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
 public class ReferenceQueueTest {
-    private static ReferenceQueue<NormalObject> rq = new ReferenceQueue<NormalObject>();
+    private static ReferenceQueue<NormalObject> rq = new ReferenceQueue<>();
 
     private static void checkQueue(){
-        Reference<NormalObject> ref = null;
+        Reference<NormalObject> ref;
         while ((ref = (Reference<NormalObject>)rq.poll()) != null){
-            if (ref != null){
-                System.out.println("In queue: " + ((NormalObjectWeakReference)(ref)).name);
-                System.out.println("reference object:" + ref.get());
-            }
+            System.out.println("In queue: " + ((NormalObjectWeakReference)(ref)).name);
+            System.out.println("reference object:" + ref.get());
         }
     }
 

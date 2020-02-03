@@ -1,12 +1,21 @@
 package com.makun.byte_demo;
 
-import java.util.concurrent.locks.ReentrantReadWriteLock;
+import java.io.File;
 
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String[] args)throws  Exception {
+        delByPath("/Users/makun/Downloads/互联网Java工程师面试突击训练");
+    }
 
-        new ReentrantReadWriteLock();
-
-        System.out.println(1 | 2);
+    private static void delByPath(String path) {
+        File file = new File(path);
+        File[] fileList = file.listFiles();
+        for (File fileItem : fileList) {
+            if (fileItem.isDirectory()) {
+                delByPath(fileItem.getPath());
+            } else if (fileItem.getPath().endsWith(".avi")) {
+                fileItem.delete();
+            }
+        }
     }
 }
